@@ -169,6 +169,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Developer Guide</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building Executables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="prompts.html">Prompts</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Evals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="bot.html">GitHub Bot</a></li>
@@ -444,7 +445,6 @@ docker<span class="w"> </span>run<span class="w"> </span><span class="se">\</spa
 <h2>Results<a class="headerlink" href="#results" title="Link to this heading">#</a></h2>
 <p>Here are the results of the evals we have run so far:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>$ gptme-eval eval_results/*/eval_results.csv
-[08:54:30] Browser tool available (using playwright)                            
 Model                                          hello           hello-patch     hello-ask       prime100        init-git         init-rust      whois-superuserlabs-ceo
 ---------------------------------------------  --------------  --------------  --------------  --------------  ---------------  -------------  -------------------------
 anthropic/claude-3-5-haiku-20241022            ✅ 55/57 473tk  ✅ 56/57 386tk  ✅ 56/57 468tk  ✅ 56/57 912tk  ✅ 54/56 922tk   ❓ N/A         ✅ 1/1 2619tk
